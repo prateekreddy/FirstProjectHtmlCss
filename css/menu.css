@@ -1,0 +1,135 @@
+@font-face {
+  font-family: PorietOne;
+  src: url(../fonts/PorietOne.ttf);
+}
+
+body{
+  width: 1345px;
+}
+
+header{
+  min-width: 1080px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid green;
+  background-color: white;
+  z-index: 2;
+}
+
+.bar{
+  background-color: green;
+  height: 10px;
+  width: 1349px;
+  padding-top: 120px;
+}
+
+header h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 50px;
+  padding: 20px;
+  font-weight: bolder;
+  width: 140px;
+  float: left;
+  border-right: 1px solid green;
+  margin: auto;
+}
+
+header li{
+  display: inline;
+  margin: 0px 32px;
+}
+
+header nav ul{
+  margin-top: 45px;
+  float: right;
+}
+
+header a:hover{
+  color: green;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav{
+  overflow: hidden;
+  min-width: 775px;
+  float: right;
+  position: static;
+}
+
+#cart img{
+  width: 40px;
+  height: 40px;
+  padding: 38px;
+  border-left: 1px solid green;
+}
+#cart{
+  float: right;
+}
+
+.content{
+  margin: auto;
+  padding-top: 30px;
+}
+
+.content img{
+  width: 300px;
+  height: 300px;
+}
+
+.follow img{
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+footer{
+  color: white ;
+  background-color: #363636;
+  overflow: hidden;
+  padding: 20px 90px;
+  padding-top: 35px;
+}
+
+footer a{
+  color: #ccc;
+
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer .follow li{
+  display: inline;
+}
+
+.follow{
+  width:300px;
+}
+
+.follow ul{
+  margin-left: -35px;
+}
+
+footer h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 50px;
+}
+
+footer div{
+  width: 250px;
+}
+
+footer div li{
+  font-size: 13px;
+}
+
+footer h3{
+  margin-top: 30px;
+  color: #DDD;
+}
