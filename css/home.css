@@ -49,8 +49,8 @@ header ul{
 }
 
 header a:hover{
-  color: green;
-  text-shadow: 1px 1px green;
+  color: grey;
+  /*text-shadow: 1px 1px grey;*/
 }
 
 a{
@@ -85,7 +85,7 @@ a{
 
 .hero h2{
   position: relative;
-  bottom: 290px;
+  bottom: 250px;
   left: 340px;
   color: green;
   font-size: 40px;
@@ -121,6 +121,10 @@ a{
 }
 
 .grid_7 h1{
+  text-align: center;
+}
+
+.content p{
   text-align: center;
 }
 

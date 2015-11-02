@@ -27,7 +27,6 @@ body{
 header{
   position: fixed;
   width: 1366px;
-
   border-bottom: 1px solid green;
   background-color: white;
   z-index: 2;
@@ -65,8 +64,8 @@ header  ul{
 }
 
 header a:hover{
-  color: green;
-  text-shadow: 1px 1px green;
+  color: grey;
+  /*text-shadow: 1px 1px grey;*/
 }
 
 a{
