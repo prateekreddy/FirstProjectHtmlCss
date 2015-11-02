@@ -1,3 +1,19 @@
+/*header div{
+  width: 100px;
+  height: 45px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid green;
+}
+
+header #cart{
+  padding: 0px;
+  border: 0px;
+}*/
+
+
+/*above this is testing*/
 @font-face {
   font-family: PoiretOne;
   src:  url('../fonts/PoiretOne.ttf') format('truetype');
@@ -9,9 +25,9 @@ body{
 }
 
 header{
-  min-width: 1080px;
   position: fixed;
-  width: 1350px;
+  width: 1366px;
+
   border-bottom: 1px solid green;
   background-color: white;
   z-index: 2;
@@ -43,7 +59,7 @@ header li{
   margin: 0px 32px;
 }
 
-header nav ul{
+header  ul{
   margin: 27.5px 0px;
   float: right;
 }
@@ -58,13 +74,13 @@ a{
   color: black;
   font-size: 20px;
 }
-
+/*
 nav{
   overflow: hidden;
   min-width: 775px;
   float: right;
   position: static;
-}
+}*/
 
 #cart img{
   width: 30px;

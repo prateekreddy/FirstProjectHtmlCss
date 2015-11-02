@@ -9,9 +9,9 @@ body{
 }
 
 header{
-  min-width: 1080px;
+  min-width: 1024px;
   position: fixed;
-  width: 1350px;
+  width: 1366px;
   border-bottom: 1px solid green;
   background-color: white;
   z-index: 2;
@@ -43,7 +43,7 @@ header li{
   margin: 0px 32px;
 }
 
-header nav ul{
+header ul{
   margin: 27.5px 0px;
   float: right;
 }
@@ -59,12 +59,12 @@ a{
   font-size: 20px;
 }
 
-nav{
+/*nav{
   overflow: hidden;
   min-width: 775px;
   float: right;
   position: static;
-}
+}*/
 
 #cart img{
   width: 30px;
@@ -90,6 +90,7 @@ nav{
   color: green;
   font-size: 40px;
   width: 700px;
+  font-family: cursive;
   margin-top: -50px;
 }
 
