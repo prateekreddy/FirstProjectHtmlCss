@@ -65,7 +65,6 @@ header  ul{
 
 header a:hover{
   color: grey;
-  /*text-shadow: 1px 1px grey;*/
 }
 
 a{
@@ -87,6 +86,7 @@ nav{
   padding: 27.5px;
   border-left: 1px solid green;
 }
+
 #cart{
   float: right;
 }
