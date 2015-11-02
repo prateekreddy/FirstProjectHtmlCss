@@ -76,34 +76,68 @@ nav{
   float: right;
 }
 
-.content{
-  margin: auto;
-  padding-top: 30px;
-  padding-bottom: 75px;
+.hero img{
+  width: 100%;
+  height: 450px;
+  opacity: 0.35;
+  padding: 30px 0px;
 }
 
-.content img{
-  width: 280px;
-  height: 280px;
-  padding: 5px 0px;
-  border-radius: 10px;
+.hero h2{
+  position: relative;
+  bottom: 290px;
+  left: 340px;
+  color: green;
+  font-size: 40px;
+  width: 700px;
+  margin-top: -50px;
 }
 
-.content .grid_4{
+.container_12{
+  overflow: hidden;
   background-color: white;
-  padding: 0px 5px;
-  box-sizing: border-box;
-  margin: 5px 5px;
-  border: 2px solid white;
+  border-radius: 20px;
+  margin-bottom: 50px;
   box-shadow: 0px 0px 2px 0px #d3cbb8;
-  border-radius: 10px;
-  height: 480px;
 }
 
-.content .grid_4:hover{
-    border: 2px solid #4EF563;
+.smart{
+  margin-left: 75px;
 }
 
+.select{
+  width: 250px !important;
+}
+
+.grid_5{
+    box-sizing: border-box;
+}
+
+.grid_7{
+  padding: 92px 0px;
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+
+.grid_7 h1{
+  text-align: center;
+}
+
+.container_12 img{
+  padding: 20px;
+}
+
+.personalise{
+  height: 300px;
+  width: 150px !important;
+  margin-left: 120px;
+}
+
+.simple{
+  height: 200px;
+  width: 150px !important;
+  margin-left: 120px;
+}
 
 .follow img{
   width: 35px;
